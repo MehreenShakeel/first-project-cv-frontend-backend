@@ -3,6 +3,7 @@ const router = express.Router();
 const mysql = require("mysql");
 
 // MySQL database connection configuration
+
 const dbConfig = {
   host: "localhost",
   user: "root",
